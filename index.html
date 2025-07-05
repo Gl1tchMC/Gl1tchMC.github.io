@@ -89,6 +89,13 @@
       font-size: 0.85em;
       color: #666;
     }
+
+    .discord-widget {
+      position: fixed;
+      top: 10px;
+      right: 10px;
+      z-index: 1000;
+    }
   </style>
 </head>
 <body>
@@ -107,9 +114,9 @@
       <button class="copy-button" onclick="copyIP()">Copy</button>
     </div>
   </div>
-  
+  <div class="discord-widget">
       <iframe src="https://discord.com/widget?id=1296185544258097234&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
-
+  </div>
   <footer>
     <p>&copy; 2025 Gl1tchMC. A Minecraft server powered by Minehut.</p>
   </footer>
